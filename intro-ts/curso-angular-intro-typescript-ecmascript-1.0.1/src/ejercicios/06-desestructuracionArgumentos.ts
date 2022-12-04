@@ -16,7 +16,7 @@ const tablet : Producto = {
 }
 
 
-function calculaImpuesto( productos : Producto[] ){
+export function calculaImpuesto( productos : Producto[] ){
 
     let total = 0;
 
