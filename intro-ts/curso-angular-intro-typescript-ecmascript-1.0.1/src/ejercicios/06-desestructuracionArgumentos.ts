@@ -1,11 +1,4 @@
 
-
-/*
-    ===== Código de TypeScript =====
-*/
-
-
-
 interface Producto {
     desc: string;
     precio : number;
@@ -27,7 +20,15 @@ function calculaImpuesto( productos : Producto[] ){
 
     let total = 0;
 
+    productos.forEach(({precio}) => {
+
+        total += precio;
+
+})
+
+    return total;
 }
 
-console.log(telefono.desc, telefono.precio);
-console.log(telefono.desc, telefono.precio);
+const articulos = [telefono, tablet];
+
+const impuesto = calculaImpuesto( articulos);
