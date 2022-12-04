@@ -24,7 +24,17 @@ const reproductor : Reproductor = {
 
 
 const {volumen , segundo, cancion, detalles} = reproductor;
-const {autor } = detalles;
+const { autor } = detalles;
 
 /* Tambien se puede desestructurar asi */
 //const {volumen , segundo, cancion, detalles{ autor }} = reproductor;
+
+
+
+/*ARRAYS */ 
+
+const dbz : string[] = ['Goku', 'Vegeta','Trunks'];
+const [, , p3] = dbz;
+
+//p3 es Trunks, lo hemos desestructurado. Se pueden poner comas vacias. 
+
