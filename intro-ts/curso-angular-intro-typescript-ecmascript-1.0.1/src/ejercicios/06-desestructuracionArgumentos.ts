@@ -1,5 +1,5 @@
 
-interface Producto {
+export interface Producto {
     desc: string;
     precio : number;
 }
